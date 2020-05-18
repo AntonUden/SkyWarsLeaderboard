@@ -1,0 +1,8 @@
+name: SkyWarsLeaderboard
+main: xyz.zeeraa.skywarsleaderboard.SkyWarsLeaderboard
+description: A plugin to display skywars leaderboard
+depend: [HolographicDisplays]
+load: POSTWORLD
+author: Zeeraa
+website: www.zeeraa.xyz
+version: 1.0

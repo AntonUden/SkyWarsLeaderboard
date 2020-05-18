@@ -1,0 +1,26 @@
+# X Y Z and World for the location to display the hologram
+# Add .5 to X and Z to center the hologram
+# Do not change world unless you you know what you are doing 
+hologram_location:
+  x: 0.5
+  y: 0.0
+  z: 0.5
+  world_name: 'world'
+
+# Relative path for score-v1.json
+score_file_path: '../SkyWars/score-v1.json'
+
+# Leaderboard title
+title: '&u-- Top 5 SkyWars Players --'
+
+# Format to display players
+# To use color codes use &
+# Valid placeholders: %username% %place% %score% %rank%
+format: '&b%place% : %username% : %score%'
+
+# Amount of players to show
+lines: 5
+
+# Update interval in ticks
+# Decreasing this value will cause the scoreboard to update faster but also causes higher disk io
+update_interval: 300
